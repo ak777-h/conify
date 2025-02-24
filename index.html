@@ -10,6 +10,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <title>Conify</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        .logo {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background-size: 250%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .logo:hover {
+            transform: scale(1.2);
+
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,9 +35,9 @@
             <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Your Company</span>
-                        <a href="#" class="text-lg font-bold text-gray-900">Conify</a>
-
+                        <span class="sr-only">Conify</span>
+                        <img src="logo.png" alt="Logo" class="logo">
+                    </a>
                 </div>
                 <div class="flex lg:hidden">
                     <button type="button"
@@ -33,6 +50,7 @@
                         </svg>
                     </button>
                 </div>
+
                 <div class="hidden lg:flex lg:gap-x-12">
                     <a href="#" class="text-sm/6 font-semibold text-gray-900">Home</a>
                     <a href="#" class="text-sm/6 font-semibold text-gray-900">Features</a>
